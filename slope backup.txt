@@ -1,0 +1,25 @@
+	if(slopeDataPtr->speedDownFlag == true)
+	{
+	/*	slopeDataPtr->accDistance = slopeDataPtr->vStep * (1+slopeDataPtr->decCount-slopeDataPtr->accCount)*
+			(slopeDataPtr->decCount-slopeDataPtr->accCount)/2 - 2*slopeDataPtr->vStep;
+		slopeDataPtr->decDistance = slopeDataPtr->totalDistance - slopeDataPtr->accDistance;
+		slopeDataPtr->vStep = slopeDataPtr->instSpeed * slopeDataPtr->instSpeed /(2*slopeDataPtr->decDistance);
+		slopeDataPtr->decCount = (int)(slopeDataPtr->instSpeed/slopeDataPtr->vStep); */
+		
+		slopeDataPtr->speedDownFlag = false;
+	}
+
+
+/*	if(RkPos[0] < 0) // compensation for the second/third quadrant due to inverse trigonometric equations place angles only in the 1st and 4th quadrant
+	{
+		MkPos[0] = 180 + RADIANS_TO_DEGREE * theta2;
+		MkPos[1] = 180 + RADIANS_TO_DEGREE * theta1;
+		MkPos[2] = RkPos[2];
+	}
+	else
+	{
+		MkPos[0] = RADIANS_TO_DEGREE * theta2;
+		MkPos[1] = RADIANS_TO_DEGREE * theta1;
+		MkPos[2] = RkPos[2];
+	}
+*/
