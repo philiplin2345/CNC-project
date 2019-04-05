@@ -2,7 +2,7 @@
 This application is made for the purpose of maneuvering a simple 2 bar linkage in a CNC fashion. The program has the ability to decode NC codes(or G codes) and translate that into mechanical movement.
 The interface was written in C# and the algorithms were written in C.
 
-Here's a youtube link demonstrating the program in action https://youtu.be/UA3dOGfkYUo
+Here's a youtube link demonstrating the program in action https://youtu.be/1upeb0Oipsw
 
 NC Code executed
 All descriptions describe the motion or position of the tool tip (tip of the bar linkage)
